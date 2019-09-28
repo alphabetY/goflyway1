@@ -16,7 +16,7 @@ import (
 	"github.com/alphabetY/tcpmux"
 
 	"github.com/alphabetY/goflyway1/pkg/fd"
-	"github.com/alphabetY/goflyway/1pkg/logg"
+	"github.com/alphabetY/goflyway1/pkg/logg"
 	"github.com/alphabetY/goflyway1/pkg/rand"
 )
 
