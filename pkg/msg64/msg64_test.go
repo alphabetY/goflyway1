@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coyove/goflyway/pkg/shoco"
+	"github.com/alphabetY/goflyway1/pkg/shoco"
 )
 
 func gen() string {

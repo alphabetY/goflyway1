@@ -3,7 +3,7 @@ package msg64
 import (
 	"strings"
 
-	"github.com/coyove/goflyway/pkg/rand"
+	"github.com/alphabetY/goflyway1/pkg/rand"
 )
 
 var crc16Table [256]uint16
