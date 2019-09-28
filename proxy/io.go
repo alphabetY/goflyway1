@@ -47,11 +47,11 @@ func (iot *io_t) Bridge(target, source net.Conn, key []byte, options IOConfig) {
 	}
 
 	if s, _ := target.(*tcpmux.Stream); s != nil {
-		s.SetTimeout(iot.idleTime)
+		s.SetInactiveTimeout(iot.idleTime)
 	}
 
 	if s, _ := source.(*tcpmux.Stream); s != nil {
-		s.SetTimeout(iot.idleTime)
+		s.SetInactiveTimeout(iot.idleTime)
 	}
 
 	exit := make(chan bool)

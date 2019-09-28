@@ -598,7 +598,6 @@ func NewClient(localaddr string, config *ClientConfig) *ProxyClient {
 		ClientConfig: config,
 	}
 
-	tcpmux.Version = config.Cipher.Alias[0] | 0x80
 
 	if proxy.Connect2 != "" || proxy.Mux != 0 {
 		proxy.tp.Proxy, proxy.tpq.Proxy = nil, nil
